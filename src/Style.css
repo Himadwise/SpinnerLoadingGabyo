@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 520px;
+    margin: 30px auto;
+}
+
+.load {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.image {
+    width: 80px;
+    height: 50px;
+}
+
+img {
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+}
+
+.card {
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.erase {
+    text-align: right;
+}
+
+.erase>.del {
+    padding: 8px 15px;
+    background-color: #fe6464;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.erase>.del:hover {
+    background-color: #f74949;
+    cursor: pointer;
+}
+
+.dellAll {
+    padding: 8px 15px;
+    background-color: rgb(43, 43, 201);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.dellAll:hover {
+    background-color: rgb(72, 72, 189);
+    cursor: pointer;
+}
+
+.info {
+    margin: 0 10px;
+    font-size: 12px;
+}
+
+.info>h4 {
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.info>p {
+    font-size: 8px;
+    margin: 5px 0;
+}
+
+.icon {
+    margin: 10px 2px;
+}
+
+.icon>i {
+    font-size: 12px;
+    color: hsl(84, 93%, 27%);
+}
+
+.icon>span {
+    font-size: 10px;
+}
